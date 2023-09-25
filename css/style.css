@@ -303,7 +303,7 @@ footer{
     #benefits .bg-light{
         width: calc(100% / 2 - 40px);
     }
-    #benefits > div{
+    #benefits > div div{
         display: flex;
         flex-wrap: wrap;
     }
@@ -321,6 +321,10 @@ footer{
     #nav i{
         display: none;
     }
+    .big-card{
+        display: flex;
+        align-items: flex-end;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -328,7 +332,19 @@ footer{
         max-width: 1140px;
         margin: 0 auto;
     }
+    .my-section{
+        margin-top: 50px;
+    }
     #intro .col:first-child .card{
         display: flex;
+    }
+    #planning .container > div{
+        width: calc(100% / 2);
+    }
+    #planning > div{
+        display: flex;
+    }
+    #benefits .bg-light{
+        width: calc(100% / 3 - 40px);
     }
 }
