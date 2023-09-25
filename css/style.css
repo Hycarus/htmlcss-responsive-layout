@@ -191,6 +191,9 @@ header{
 #nav i{
     font-size: 1.5em;
 }
+.px-nav{
+    padding: 0 20px;
+}
 /* main */
 main{
     padding-top: 50px
@@ -324,6 +327,18 @@ footer{
     .big-card{
         display: flex;
         align-items: flex-end;
+    }
+    #nav li{
+        padding: 0 15px;
+    }
+    #nav li a{
+        text-decoration: none;
+        color: var(--color-light-color);
+    }
+    #nav .btn{
+        background-color: var(--color-light-color);
+        color: var(--color-text);
+        padding: 5px 15px;
     }
 }
 
