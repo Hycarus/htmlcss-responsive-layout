@@ -185,7 +185,7 @@ header{
 #logo{
     width: 70px;
 }
-#nav ul{
+#nav .nav-flex{
     display: none;
 }
 #nav i{
@@ -194,6 +194,28 @@ header{
 .px-nav{
     padding: 0 20px;
 }
+.sub-menu{
+    position: relative;
+}
+.sub-menu-content{
+    display: none;
+}
+.sub-menu-content a{
+    text-decoration: none;
+    color:  var(--color-light-color);
+}
+.sub-menu:hover .sub-menu-content{
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    left: -100px;
+    background-color: var(--color-secondary-color);
+    list-style: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
 /* main */
 main{
     padding-top: 50px
@@ -316,13 +338,13 @@ footer{
 }
 
 @media screen and (min-width: 992px){
-    #nav ul{
+    #nav .nav-flex{
         display: block;
         list-style: none;
         display: flex;
         align-items: center;
     }
-    #nav i{
+    .sub-menu{
         display: none;
     }
     .big-card{
