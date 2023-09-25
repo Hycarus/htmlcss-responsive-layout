@@ -220,7 +220,9 @@ h2{
     height: 200px;
     object-fit: cover;
 }
-
+#testimonials h3{
+    font-size: 3em;
+}
 #benefits h3{
     font-size: 3em;
 }
@@ -286,6 +288,27 @@ footer{
     }
     #intro .col:first-child{
         width: calc((100% / 3) * 2);
+    }
+    #testimonials div{
+        display: flex;
+        align-items: center;
+    }
+    .text-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-container p{
+        text-align: left;
+    }
+    #benefits .bg-light{
+        width: calc(100% / 2 - 40px);
+    }
+    #benefits > div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #about-us{
+        display: flex;
     }
 }
 
