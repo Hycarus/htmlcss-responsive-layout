@@ -320,6 +320,7 @@ footer{
         display: block;
         list-style: none;
         display: flex;
+        align-items: center;
     }
     #nav i{
         display: none;
@@ -329,7 +330,7 @@ footer{
         align-items: flex-end;
     }
     #nav li{
-        padding: 0 15px;
+        padding-left: 20px;
     }
     #nav li a{
         text-decoration: none;
